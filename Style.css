@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  height: 45px;
+  width: 100%;
+  z-index: 99;
+  background: black;
+}
+
+.nav-right {
+  float: right;
+}

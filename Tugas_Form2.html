@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div>
+        <div class="menu">
+            <nav>
+                <ul class="List-Menu">
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <center>
+                <h1>Form Pemesanan</h1>
+            </center>
+        </div>
+        <form id="pendaftaran" method="POST">
+            <fieldset>
+                <div class="Menu1">
+                    <p>
+                        <tr>
+                            <td><b>Nama Pemesan</b></b>
+                            </td>
+                            <td><input type="text" name="nama" id="nama" placeholder="Nama Pemesan" size="20"></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><b>Destinasi<b></b></td>
+                            <td><input type="text" name="Destinasi" id="Desti" placeholder="Nama Destinasi" size="20"></td>
+                        </tr>
+                        <tr>
+                    </p>
+                </div>
+                <div class="menu2">
+                    <p>
+                        <tr>
+                            <td><b>Pilih Pembayaran</b></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <input type="radio" id="Paypal" name="Pay" value="Paypal">
+                        <label for="Paypal">Paypal</label><br>
+                    </p>
+                    <p>
+                        <input type="radio" id="Visa" name="Pay" value="Visa">
+                        <label for="Visa">Visa</label><br>
+                    </p>
+                    <p>
+                        <input type="radio" id="ATM" name="Pay" value="ATM">
+                        <label for="ATM">ATM</label><br>
+                    </p>
+                </div>
+            </fieldset>
+            <center>
+                <button class="button m_1" onclick="return tambahdata()">ORDER</button>
+            </center>
+        </form>
+    </div>
+    <div>
+        <center>
+            <table border="1" id="table">
+                    <p>
+                      <b>Daftar</p></b>
+                        <p>
+                            <tr>
+                                <td>Nama </td>
+                                <td>Lokasi</td>
+                                <td>Pembayaran</td>
+                            </tr>
+                      </p>
+                       <p>
+                            <tr>
+                                <td>fery </td>
+                                <td>pantai selatan</td>
+                                <td>visa</td>
+                            </tr>
+                      </p>
+                      
+            </table>
+        </center>
+    </div>
+</body>
+
+</html>
+
+<script src="script.js"></script>
